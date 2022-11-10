@@ -5,7 +5,8 @@
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /hw-8-final-version/"
+    "build": "parcel build src/*.html --public-url /hw-8-final-version/",
+    "push": "git add . && git commit -m 'Hello' && git push "
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,10 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "@vimeo/player": "^2.18.0",
+    "lodash.throttle": "^4.1.1",
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.10.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
